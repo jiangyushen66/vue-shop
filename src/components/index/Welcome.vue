@@ -159,7 +159,7 @@ export default {
       // 升序排序
 
       this.orderList.sort(function (a, b) {
-        return a.create_time - b.create_time
+        return b.create_time - a.create_time
       })
 
       // 获取日期及订单总额
