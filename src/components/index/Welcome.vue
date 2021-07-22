@@ -124,6 +124,7 @@ export default {
     },
     initChart1() {
       // 创建echarts实例     
+      // 创建echarts实例
       var chart1 = echarts.init(document.getElementById('chart1'))
       // console.log(chart1.id)
       var option = {
